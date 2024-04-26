@@ -64,7 +64,12 @@ export default function Handin() {
             their events before inviting guests. In particular, our goal was to
             make the page customization experience even more
             &quot;Partiful&quot; — to prompt unexpected delight, irreverence,
-            and FUN! 💃🕺
+            and FUN! 💃🕺 A more flushed out version of our problem statement
+            can be found in our{" "}
+            <Link
+              text="project brief"
+              href="https://docs.google.com/document/d/1KPqCHUzUh2ZniWNUCtBJo0f0lvwzfvBhbFx2PXoJLnQ/edit?usp=sharing"
+            />{" "}.
           </p>
 
           <p className="text-14 italic">
@@ -440,7 +445,7 @@ export default function Handin() {
             a few points of feedback for each of our final flows:
           </p>
 
-          <p className="text-14 underline">Flow 1: Theme Hue Customization</p>
+          <p className="text-14 underline">🎨 Flow 1: Theme Hue Customization</p>
           <p className="text-14">
             Problem: How to reset the theme to its original state is unclear
             from the current hue slider
@@ -451,7 +456,7 @@ export default function Handin() {
             mechanisms to revert the theme to its default color
           </p>
 
-          <p className="text-14 underline">Flow 2: Title Font Customization</p>
+          <p className="text-14 underline">✍🏼 Flow 2: Title Font Customization</p>
           <p className="text-14">
             Problem: The current font side pop up would likely not work with the
             small left margins on a mobile screen
@@ -462,7 +467,7 @@ export default function Handin() {
             solve this responsiveness issue
           </p>
 
-          <p className="text-14 underline">Flow 3: Music</p>
+          <p className="text-14 underline">🎶 Flow 3: Music</p>
           <p className="text-14">
             Problem: The pop up for choosing an event theme song blocks the
             cover image, which makes the pulse animation difficult to preview
@@ -475,7 +480,7 @@ export default function Handin() {
             mechanisms to revert the theme to its default color
           </p>
 
-          <p className="text-14 underline">Flow 4: Partiful Your Guests</p>
+          <p className="text-14 underline">🎉 Flow 4: Partiful Your Guests</p>
           <p className="text-14">
             Problem: While the font cover image and back “Partiful your guests”
             image flip on click, that clickable interaction is hard to realize
