@@ -1,9 +1,14 @@
 import Image from "next/image";
-import compAnalysis from "./comp-analysis.png";
-import one from "./one.png";
-import two from "./two.png";
 import faces from "./faces.png";
 import partifulogo from "./partfiul.png"
+import fontsketchaf from "./font-sketch-af.png";
+import fontsketchcy from "./fontsketchcy.png";
+import partyguestsaf from "./party-guests-af.png";
+import themesketchcy from "./themesketchcy.png";
+import themesketchvl from "./themesketchvl.png";
+import themesketchtj from "./themesketchtj.png";
+import songsketchcy from "./songsketchcy.png";
+import songsketchtj from "./songsketchtj.png";
 
 function Link({ text, href }: { text: string, href: string }) {
   return <a className="text-dark-blue cursor:pointer hover:opacity-70 underline" target="_blank" href={href}>{text}</a>
@@ -19,7 +24,7 @@ export default function Handin() {
             <h2 className="text-14 mt-[4px]"> By: Alexis Fry, Claire Yang, Tiger Ji, Vivian Li </h2>
           </div>
 
-          <Image src={partifulogo} className="rounded border border-black ml-16" width={69} alt="Image of face cutouts for cover image"/>
+          <Image src={partifulogo} className="rounded border border-black ml-16" width={69} alt="partiful logo"/>
         </div>
 
         <section className="l-column gap-14">
@@ -60,7 +65,7 @@ export default function Handin() {
             </ul>
 
             <div className="c-column m-12">
-              <Image src={faces} className="rounded border border-black" width={230} alt="Image of face cutouts for cover image"/>
+              <Image src={faces} className="rounded border border-black" width={230} alt="Image of face cutouts for cover image" />
               <p className="text-12 mt-8"> Maybe something like this could be partiful... 🧐 </p>
             </div>
           </div>
@@ -68,20 +73,32 @@ export default function Handin() {
           <p className="text-14">
             Below are some sketches to demonstrate some example flows for some of these features:
           </p>
+
+          <p className="text-14 font-bold underline">
+            Font Customization
+          </p>
           <div className="row gap-24">
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
+            <Image src={fontsketchaf} className="rounded border border-black" width={500} alt="font sketch" />
+            <Image src={fontsketchcy} className="rounded border border-black" width={500} alt="font sketch" />
           </div>
+
+          <p className="text-14 font-bold underline">
+            Theme Customization
+          </p>
           <div className="row gap-24">
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
+            <Image src={themesketchvl} className="rounded border border-black" width={500} alt="theme sketch" />
+            <div className="l-column gap-12">
+              <Image src={themesketchtj} className="rounded border border-black" width={400} alt="theme sketch" />
+              <Image src={themesketchcy} className="rounded border border-black" width={400} alt="theme sketch" />
+            </div>
           </div>
+
+          <p className="text-14 font-bold underline">
+            Music Customization
+          </p>
           <div className="row gap-24">
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={300} alt="Image of face cutouts for cover image"/>
+            <Image src={songsketchcy} className="rounded border border-black" width={400} alt="song sketch" />
+            <Image src={songsketchtj} className="rounded border border-black" width={700} alt="song sketch" />
           </div>
 
           <p className="text-14">
@@ -127,35 +144,9 @@ export default function Handin() {
         <section className="l-column gap-14">
           <h2 className="text-20 font-bold"> Part II: Initial Wireframing & Critiques </h2>
 
-          <p className="text-14"> Based off our initial ideation, discussion, and sketches, our first wireframes were as follows: </p>
-
-          <p className="text-14 text-center font-bold underline">
-            Flow 1: Theme Hue Customization
-          </p>
-          <div className="row gap-24">
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-          </div>
-
-
-          <p className="text-14 text-center font-bold underline">
-            Flow 2: Title Font Customization
-          </p>
-          <div className="row gap-24">
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-          </div>
-
-
-          <p className="text-14 text-center font-bold underline">
-            Flow 3: Music
-          </p>
-          <div className="row gap-24">
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
-            <Image src={faces} className="rounded border border-black" width={400} alt="Image of face cutouts for cover image"/>
+          <p className="text-14"> Based off our initial ideation, discussion, and sketches, our first wireframes can be seen below (through an embedded Figma file): </p>
+          <div className="row justify-center p-24">
+            <iframe className="rounded border border-black" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FEXqpM6BdrTVXCAXFY9El4c%2FPartiful-Event-Page-Initial-Wireframes%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DhUzUNXtwndzxZhmY-1" />
           </div>
 
           <p className="text-14">
@@ -208,8 +199,12 @@ export default function Handin() {
         <section className="l-column gap-14">
           <h2 className="text-20 font-bold"> Part III: Revisions & High-Fidelity Wireframing </h2>
 
-          <p className="text-14"> After taking our previous round of feedback into account, we developed some more refined, high-fidelity prototypes for our proposed features, shown below: </p>
-          <p className="text-14"> View our Figma file <Link text="here! " href="https://www.figma.com/file/MLnCI2LS5FmgL1VJp4JFhV/Partiful-Event-Page?type=design&node-id=0-1&mode=design&t=CofY9JqEh5z9ly3W-0" /></p>
+          <p className="text-14"> After taking our previous round of feedback into account, we developed some more refined, <Link text="high-fidelity prototypes" href="https://www.figma.com/file/MLnCI2LS5FmgL1VJp4JFhV/Partiful-Event-Page?type=design&node-id=0-1&mode=design&t=CofY9JqEh5z9ly3W-0" /> for our proposed features, shown below: </p>
+
+          <div className="row justify-center p-24">
+            <iframe className="rounded border border-black" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FMLnCI2LS5FmgL1VJp4JFhV%2FPartiful-Event-Page%3Ftype%3Ddesign%26node-id%3D1%253A2%26mode%3Ddesign%26t%3DUpikyBu5ie0ivu51-1" />
+          </div>
+
         </section>
 
         <section className="l-column gap-14">
