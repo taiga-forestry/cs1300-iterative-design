@@ -1,8 +1,9 @@
 import Image from "next/image";
 import faces from "./faces.png";
-import partifulogo from "./partfiul.png"
+import partifulogo from "./partfiul.png";
 import fontsketchaf from "./font-sketch-af.png";
 import fontsketchcy from "./fontsketchcy.png";
+import fontsketchvl from "./font-sketch-viv.png";
 import partyguestsaf from "./party-guests-af.png";
 import themesketchcy from "./themesketchcy.png";
 import themesketchvl from "./themesketchvl.png";
@@ -11,8 +12,16 @@ import songsketchcy from "./songsketchcy.png";
 import songsketchtj from "./songsketchtj.png";
 import styleguide from "./styleguide.png";
 
-function Link({ text, href }: { text: string, href: string }) {
-  return <a className="text-dark-blue cursor:pointer hover:opacity-70 underline" target="_blank" href={href}>{text}</a>
+function Link({ text, href }: { text: string; href: string }) {
+  return (
+    <a
+      className="text-dark-blue cursor:pointer hover:opacity-70 underline"
+      target="_blank"
+      href={href}
+    >
+      {text}
+    </a>
+  );
 }
 
 export default function Handin() {
@@ -55,7 +64,12 @@ export default function Handin() {
             their events before inviting guests. In particular, our goal was to
             make the page customization experience even more
             &quot;Partiful&quot; — to prompt unexpected delight, irreverence,
-            and FUN! 💃🕺
+            and FUN! 💃🕺 A more flushed out version of our problem statement
+            can be found in our{" "}
+            <Link
+              text="project brief"
+              href="https://docs.google.com/document/d/1KPqCHUzUh2ZniWNUCtBJo0f0lvwzfvBhbFx2PXoJLnQ/edit?usp=sharing"
+            />{" "}.
           </p>
 
           <p className="text-14 italic">
@@ -135,6 +149,12 @@ export default function Handin() {
               width={500}
               alt="font sketch"
             />
+            <Image
+              src={fontsketchvl}
+              className="rounded border border-black"
+              width={500}
+              alt="font sketch"
+            />
           </div>
 
           <p className="text-14 font-bold underline">Theme Customization</p>
@@ -178,11 +198,11 @@ export default function Handin() {
           </div>
 
           <p className="text-14">
-            In the end, we decided to adopt aspects from sketches X, Y, and Z
-            for our final set of wireframes, which showcase our initial designs
-            for the features for adding music, changing fonts, and customizing
-            the page theme. The main design considerations for each feature we
-            added are as follows:
+            In the end, we decided to adopt the third font customization sketch,
+            first theme customization sketch, and first music customization
+            sketch for our final set of wireframes, which showcase our initial
+            designs for said features. The main design considerations for each
+            feature we added are as follows:
           </p>
 
           <div className="grid grid-cols-3 gap-20 p-16">
@@ -348,13 +368,13 @@ export default function Handin() {
             well as our component and icon additions. Any elements that we added
             to the interface were uniform with Partiful’s existing event page
             interface. All of the fonts, accent colors, and existing components
-            as well as their interactive states did not change. In terms of the decisions
-            Partiful made for their design system, we noticed that their accent colors
-            were intentionally neon to stand out against any selected theme. Further,
-            we noticed that they kept their font color white throughout the page to
-            provide high contrast against all themes they have available. The use of
-            the font style Syne is part of their brand identity, which is why it is the default
-            title font. 
+            as well as their interactive states did not change. In terms of the
+            decisions Partiful made for their design system, we noticed that
+            their accent colors were intentionally neon to stand out against any
+            selected theme. Further, we noticed that they kept their font color
+            white throughout the page to provide high contrast against all
+            themes they have available. The use of the font style Syne is part
+            of their brand identity, which is why it is the default title font.
           </p>
 
           <p className="text-14">
@@ -425,7 +445,7 @@ export default function Handin() {
             a few points of feedback for each of our final flows:
           </p>
 
-          <p className="text-14 underline">Flow 1: Theme Hue Customization</p>
+          <p className="text-14 underline">🎨 Flow 1: Theme Hue Customization</p>
           <p className="text-14">
             Problem: How to reset the theme to its original state is unclear
             from the current hue slider
@@ -436,7 +456,7 @@ export default function Handin() {
             mechanisms to revert the theme to its default color
           </p>
 
-          <p className="text-14 underline">Flow 2: Title Font Customization</p>
+          <p className="text-14 underline">✍🏼 Flow 2: Title Font Customization</p>
           <p className="text-14">
             Problem: The current font side pop up would likely not work with the
             small left margins on a mobile screen
@@ -447,7 +467,7 @@ export default function Handin() {
             solve this responsiveness issue
           </p>
 
-          <p className="text-14 underline">Flow 3: Music</p>
+          <p className="text-14 underline">🎶 Flow 3: Music</p>
           <p className="text-14">
             Problem: The pop up for choosing an event theme song blocks the
             cover image, which makes the pulse animation difficult to preview
@@ -460,7 +480,7 @@ export default function Handin() {
             mechanisms to revert the theme to its default color
           </p>
 
-          <p className="text-14 underline">Flow 4: Partiful Your Guests</p>
+          <p className="text-14 underline">🎉 Flow 4: Partiful Your Guests</p>
           <p className="text-14">
             Problem: While the font cover image and back “Partiful your guests”
             image flip on click, that clickable interaction is hard to realize
