@@ -12,7 +12,7 @@ import songsketchtj from "./songsketchtj.png";
 
 function Link({ text, href }: { text: string, href: string }) {
   return <a className="text-dark-blue cursor:pointer hover:opacity-70 underline" target="_blank" href={href}>{text}</a>
-}
+} 
 
 export default function Handin() {
   return (
@@ -32,7 +32,7 @@ export default function Handin() {
           <p className="text-14">
             Partiful is one of the most popular event planning platforms targeted towards the Gen Z and Millennial demographic.
             Compared to competitors like Eventbrite and Facebook, Partiful is highly customizable, enabling users
-            to truly capture the vibe of their party or event and delight their guests. 
+            to truly capture the vibe of their party or event and delight their guests.
           </p>
 
           <p className="text-14">
@@ -160,7 +160,7 @@ export default function Handin() {
               </p>
 
               <ul className="text-14 list-disc list-inside">
-                <li> 
+                <li>
                   They were slightly opposed to the complexity of the AI generation and vast range of
                   options for creating a custom color/gradient theme background, citing concerns of low contrast,
                   poor readability, and clutteredness of the theme customization UI
@@ -169,7 +169,7 @@ export default function Handin() {
                   Instead, they preferred for us to incorporate the color customization into their existing themes,
                   e.g. by being able to add a hue to slightly modify the theme color
                 </li>
-                <li> 
+                <li>
                   They also suggested a slight pivot in our creative direction, preferring the “partifuliness” of the
                   custom cover images showcasing guest/host faces
                 </li>
@@ -182,13 +182,13 @@ export default function Handin() {
               </p>
               <ul className="text-14 list-disc list-inside">
                 For the most part, peer feedback was mostly positive — the main points of potential change/critique were:
-                <li> 
+                <li>
                   Concern about whether adding a pulsing cover image animation along with the music would be too distracting
                 </li>
                 <li>
                   Potentially shortening the flow for picking a song, since the current modal to do so is multi-page
                 </li>
-                <li> 
+                <li>
                   Consider adding even more customization options, such as drag-and-drop builders for a more personalized template
                 </li>
               </ul>
@@ -206,7 +206,7 @@ export default function Handin() {
           </div>
 
           <p className="text-14">
-            Our style guide covers Partiful&apos;s established design system as well as our component and icon additions. Any elements that we added to the interface were uniform with Partiful’s existing event page interface. All of the fonts, accent colors, and existing components as well as their interactive states did not change. 
+            Our style guide covers Partiful&apos;s established design system as well as our component and icon additions. Any elements that we added to the interface were uniform with Partiful’s existing event page interface. All of the fonts, accent colors, and existing components as well as their interactive states did not change.
           </p>
 
           <p className="text-14">
@@ -226,7 +226,7 @@ export default function Handin() {
           <h2 className="text-20 font-bold"> Part IV: Final Founder Feedback & Next Steps </h2>
 
           <p className="text-14">
-            After our final rounds of revisions and high-fidelity wireframing, we met with designers, engineers, and founders 
+            After our final rounds of revisions and high-fidelity wireframing, we met with designers, engineers, and founders
             at Partiful to showcase our work. Overall, while received praise for our innovative designs which captured the &quot;Partiful&quot;
             spirit, we received a few points of feedback for each of our final flows:
           </p>
@@ -245,7 +245,7 @@ export default function Handin() {
             Flow 2: Title Font Customization
           </p>
           <p className="text-14">
-            Problem: The current font side pop up would likely not work with the small left margins on a mobile screen 
+            Problem: The current font side pop up would likely not work with the small left margins on a mobile screen
           </p>
           <p className="text-14">
             Solution: We agreed that making the font a pop up that goes right on top of the title font section and has a horizontal scroll could solve this responsiveness issue
@@ -265,15 +265,15 @@ export default function Handin() {
             Flow 4: Partiful Your Guests
           </p>
           <p className="text-14">
-            Problem: While the font cover image and back “Partiful your guests” image flip on click, that clickable interaction is hard to realize for the user 
+            Problem: While the font cover image and back “Partiful your guests” image flip on click, that clickable interaction is hard to realize for the user
           </p>
           <p className="text-14">
-            Solution: We successfully proposed that the cover could automatically flip every 5 seconds, although that could become overboard with the pulsing, or that there could be some icon to indicate the cover is flippable  
+            Solution: We successfully proposed that the cover could automatically flip every 5 seconds, although that could become overboard with the pulsing, or that there could be some icon to indicate the cover is flippable
           </p>
 
 
           <p className="text-14">
-            If time permits, we would love to take this feedback into account and apply them to our Figma designs to 
+            If time permits, we would love to take this feedback into account and apply them to our Figma designs to
             further improve upon our existing wireframes!
           </p>
         </section>
