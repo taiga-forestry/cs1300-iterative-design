@@ -10,7 +10,7 @@ import themesketchvl from "./themesketchvl.png";
 import themesketchtj from "./themesketchtj.png";
 import songsketchcy from "./songsketchcy.png";
 import songsketchtj from "./songsketchtj.png";
-import styleguide from "./styleguide.jpg";
+import styleguide from "./styleguide.png";
 import usspice from "./us-spice.png";
 import partifulpage from "./partifulpage.png";
 
