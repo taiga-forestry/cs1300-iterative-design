@@ -1,2 +1,2 @@
-Partiful Iterative Design Assignment - Event Page Customization
+# Partiful Iterative Design Assignment - Event Page Customization
 By: Alexis Fry, Claire Yang, Tiger Ji, Vivian Li
