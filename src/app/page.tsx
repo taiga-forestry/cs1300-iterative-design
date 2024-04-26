@@ -205,6 +205,21 @@ export default function Handin() {
             <iframe className="rounded border border-black" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FMLnCI2LS5FmgL1VJp4JFhV%2FPartiful-Event-Page%3Ftype%3Ddesign%26node-id%3D1%253A2%26mode%3Ddesign%26t%3DUpikyBu5ie0ivu51-1" />
           </div>
 
+          <p className="text-14">
+            Our style guide covers Partiful&apos;s established design system as well as our component and icon additions. Any elements that we added to the interface were uniform with Partiful’s existing event page interface. All of the fonts, accent colors, and existing components as well as their interactive states did not change. 
+          </p>
+
+          <p className="text-14">
+            Our main changes that we adopted from the critiques were:
+          </p>
+
+          <ul className="text-14 list-disc list-inside ml-24">
+            <li> We agreed with the feedback on the theme customization and decided to scrap our original AI and gradient ideas, instead implementing a similar interface with a simple slider to adjust the hue for each individual theme </li>
+            <li> We also decided to add the feature for interactive cover images (particularly, those with face cutouts) as it seemed particularly “Partiful” in inducing unexpected delight from guests </li>
+            <li> We ended up rejecting the studio feedback suggestions for more custom layouts, as we believed that the increase in layout options was more likely to be overwhelming for users while providing little benefit in “Partiful” expressiveness. </li>
+            <li> We also were fine with the multi-page modal of the song selection flow, as combining everything into a single page modal didn’t seem necessary and would possibly lead to information overload </li>
+          </ul>
+
         </section>
 
         <section className="l-column gap-14">
