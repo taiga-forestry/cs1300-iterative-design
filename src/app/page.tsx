@@ -12,7 +12,7 @@ import songsketchtj from "./songsketchtj.png";
 
 function Link({ text, href }: { text: string, href: string }) {
   return <a className="text-dark-blue cursor:pointer hover:opacity-70 underline" target="_blank" href={href}>{text}</a>
-} 
+}
 
 export default function Handin() {
   return (
