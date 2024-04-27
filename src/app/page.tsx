@@ -427,7 +427,7 @@ export default function Handin() {
           </ul>
 
           <p className="text-14">
-            Here is a Loom for a final walkthrough of our final product:
+            Here is the Loom walkthrough of our final product:
           </p>
 
           <div
