@@ -69,7 +69,8 @@ export default function Handin() {
             <Link
               text="project brief"
               href="https://docs.google.com/document/d/1KPqCHUzUh2ZniWNUCtBJo0f0lvwzfvBhbFx2PXoJLnQ/edit?usp=sharing"
-            />{" "}.
+            />{" "}
+            .
           </p>
 
           <p className="text-14 italic">
@@ -429,6 +430,29 @@ export default function Handin() {
               necessary and would possibly lead to information overload{" "}
             </li>
           </ul>
+
+          <p className="text-14">
+            Here is a Loom for a final walkthrough of our final product:
+          </p>
+
+          <div
+            style={{
+              position: "relative",
+              paddingBottom: "57.324840764331206%",
+              height: 0,
+            }}
+          >
+            <iframe
+              src="https://www.loom.com/embed/e6f07fea94fb4271812210cbd65b61d5?sid=4c88534b-ec89-4e99-8416-1767d06d69c7"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+            ></iframe>
+          </div>
         </section>
 
         <section className="l-column gap-14">
@@ -445,7 +469,9 @@ export default function Handin() {
             a few points of feedback for each of our final flows:
           </p>
 
-          <p className="text-14 underline">🎨 Flow 1: Theme Hue Customization</p>
+          <p className="text-14 underline">
+            🎨 Flow 1: Theme Hue Customization
+          </p>
           <p className="text-14">
             Problem: How to reset the theme to its original state is unclear
             from the current hue slider
@@ -456,7 +482,9 @@ export default function Handin() {
             mechanisms to revert the theme to its default color
           </p>
 
-          <p className="text-14 underline">✍🏼 Flow 2: Title Font Customization</p>
+          <p className="text-14 underline">
+            ✍🏼 Flow 2: Title Font Customization
+          </p>
           <p className="text-14">
             Problem: The current font side pop up would likely not work with the
             small left margins on a mobile screen
