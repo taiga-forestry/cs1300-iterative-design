@@ -11,6 +11,9 @@ import themesketchtj from "./themesketchtj.png";
 import songsketchcy from "./songsketchcy.png";
 import songsketchtj from "./songsketchtj.png";
 import styleguide from "./styleguide.png";
+import usspice from "./us-spice.png";
+import partifulpage from "./partifulpage.png";
+
 
 function Link({ text, href }: { text: string; href: string }) {
   return (
@@ -31,12 +34,10 @@ export default function Handin() {
         <div className="row items-center justify-between">
           <div>
             <h1 className="text-32 font-bold">
-              {" "}
-              A Partiful Exploration of the Event Customization Page{" "}
+              A Partiful Exploration of the Event Customization Page
             </h1>
             <h2 className="text-14 mt-[4px]">
-              {" "}
-              By: Alexis Fry, Claire Yang, Tiger Ji, Vivian Li{" "}
+              By: Alexis Fry, Claire Yang, Tiger Ji, Vivian Li
             </h2>
           </div>
 
@@ -65,12 +66,10 @@ export default function Handin() {
             make the page customization experience even more
             &quot;Partiful&quot; — to prompt unexpected delight, irreverence,
             and FUN! 💃🕺 A more flushed out version of our problem statement
-            can be found in our{" "}
-            <Link
+            can be found in our <Link
               text="project brief"
               href="https://docs.google.com/document/d/1KPqCHUzUh2ZniWNUCtBJo0f0lvwzfvBhbFx2PXoJLnQ/edit?usp=sharing"
-            />{" "}
-            .
+            />.
           </p>
 
           <p className="text-14 italic">
@@ -80,6 +79,18 @@ export default function Handin() {
             and functionality that would enhance the user experience of event
             page customizations.
           </p>
+
+          <div className="row justify-center p-16">
+            <div>
+              <Image
+                src={partifulpage}
+                className="rounded border border-black"
+                width={600}
+                alt="partiful logo"
+              />
+              <p className="text-12 mt-6 text-center"> The current Partiful Event Customization Page! </p>
+            </div>
+          </div>
         </section>
 
         <section className="l-column gap-14">
@@ -94,26 +105,22 @@ export default function Handin() {
           <div className="grid grid-cols-[auto_1fr]">
             <ul className="text-14 list-disc list-inside ml-24">
               <li>
-                {" "}
-                Incorporating music into the invite pages sent to guests{" "}
+                Incorporating music into the invite pages sent to guests
               </li>
               <li> Title font customization </li>
               <li>
-                {" "}
                 Animated or interactive cover images (e.g. by including guest
-                faces in the image){" "}
+                faces in the image)
               </li>
               <li>
-                {" "}
                 Custom page theme generators, either through AI or a
-                color/gradient selector{" "}
+                color/gradient selector
               </li>
               <li> Custom emojis/messages for RSVP-ing to events </li>
               <li> Ability to tag events (e.g. by rave, birthday, etc.) </li>
               <li>
-                {" "}
                 Custom layout options for invite pages, possibly creatable via a
-                drag-and-drop interface{" "}
+                drag-and-drop interface
               </li>
             </ul>
 
@@ -125,8 +132,7 @@ export default function Handin() {
                 alt="Image of face cutouts for cover image"
               />
               <p className="text-12 mt-8">
-                {" "}
-                Maybe something like this could be partiful... 🧐{" "}
+                Maybe something like this could be partiful... 🧐
               </p>
             </div>
           </div>
@@ -141,13 +147,13 @@ export default function Handin() {
             <Image
               src={fontsketchaf}
               className="rounded border border-black"
-              width={500}
+              width={450}
               alt="font sketch"
             />
             <Image
               src={fontsketchcy}
               className="rounded border border-black"
-              width={500}
+              width={450}
               alt="font sketch"
             />
             <Image
@@ -193,7 +199,7 @@ export default function Handin() {
             <Image
               src={songsketchtj}
               className="rounded border border-black"
-              width={700}
+              width={600}
               alt="song sketch"
             />
           </div>
@@ -251,14 +257,12 @@ export default function Handin() {
 
         <section className="l-column gap-14">
           <h2 className="text-20 font-bold">
-            {" "}
-            Part II: Initial Wireframing & Critiques{" "}
+            Part II: Initial Wireframing & Critiques
           </h2>
 
           <p className="text-14">
-            {" "}
             Based off our initial ideation, discussion, and sketches, our first
-            wireframes can be seen below (through an embedded Figma file):{" "}
+            wireframes can be seen below (through an embedded Figma file):
           </p>
           <div className="row justify-center p-24">
             <iframe
@@ -327,14 +331,11 @@ export default function Handin() {
         <section className="l-column gap-14">
           <h2 className="text-20 font-bold"> Part III: Revised Wireframes </h2>
           <p className="text-14">
-            {" "}
             After taking our previous rounds of feedback into account, we
-            developed some more refined,{" "}
-            <Link
+            developed some more refined, <Link
               text="low-fidelity wireframes"
               href="https://www.figma.com/file/MLnCI2LS5FmgL1VJp4JFhV/Partiful-Event-Page?type=design&node-id=0%3A1&mode=design&t=B0pl461JTYFLjnjW-1"
-            />{" "}
-            shown below:{" "}
+            /> shown below:
           </p>
 
           <div className="row justify-center p-24">
@@ -349,20 +350,21 @@ export default function Handin() {
 
         <section className="l-column gap-14">
           <h2 className="text-20 font-bold">
-            {" "}
-            Part IV: Style Guide & High-Fidelity Wireframing{" "}
+            Part IV: Style Guide & High-Fidelity Wireframing
           </h2>
 
           <p className="text-14">
             Once we were confident with our wireframes, we developed a style
             guide.
           </p>
-          <Image
-            src={styleguide}
-            className="rounded border border-black"
-            width={700}
-            alt="style guide"
-          />
+          <div className="row justify-center p-24">
+            <Image
+              src={styleguide}
+              className="rounded border border-black"
+              width={700}
+              alt="style guide"
+            />
+          </div>
 
           <p className="text-14">
             Our style guide covers Partiful&apos;s established design system as
@@ -379,14 +381,11 @@ export default function Handin() {
           </p>
 
           <p className="text-14">
-            {" "}
             Once we were confidence with our wireframes, we developed our
-            interactive{" "}
-            <Link
+            interactive <Link
               text="high-fidelity prototypes"
               href="https://www.figma.com/file/MLnCI2LS5FmgL1VJp4JFhV/Partiful-Event-Page?type=design&node-id=0-1&mode=design&t=CofY9JqEh5z9ly3W-0"
-            />{" "}
-            for our proposed features, shown below:{" "}
+            /> for our proposed features, shown below:
           </p>
 
           <div className="row justify-center p-24">
@@ -404,30 +403,26 @@ export default function Handin() {
 
           <ul className="text-14 list-disc list-inside ml-24">
             <li>
-              {" "}
               We agreed with the feedback on the theme customization and decided
               to scrap our original AI and gradient ideas, instead implementing
               a similar interface with a simple slider to adjust the hue for
-              each individual theme{" "}
+              each individual theme
             </li>
             <li>
-              {" "}
               We also decided to add the feature for interactive cover images
               (particularly, those with face cutouts) as it seemed particularly
-              “Partiful” in inducing unexpected delight from guests{" "}
+              “Partiful” in inducing unexpected delight from guests
             </li>
             <li>
-              {" "}
               We ended up rejecting the studio feedback suggestions for more
               custom layouts, as we believed that the increase in layout options
               was more likely to be overwhelming for users while providing
-              little benefit in “Partiful” expressiveness.{" "}
+              little benefit in “Partiful” expressiveness.
             </li>
             <li>
-              {" "}
               We also were fine with the multi-page modal of the song selection
               flow, as combining everything into a single page modal didn’t seem
-              necessary and would possibly lead to information overload{" "}
+              necessary and would possibly lead to information overload
             </li>
           </ul>
 
@@ -457,8 +452,7 @@ export default function Handin() {
 
         <section className="l-column gap-14">
           <h2 className="text-20 font-bold">
-            {" "}
-            Part V: Final Founder Feedback & Next Steps{" "}
+            Part V: Final Founder Feedback & Next Steps
           </h2>
 
           <p className="text-14">
@@ -469,57 +463,62 @@ export default function Handin() {
             a few points of feedback for each of our final flows:
           </p>
 
-          <p className="text-14 underline">
-            🎨 Flow 1: Theme Hue Customization
-          </p>
-          <p className="text-14">
-            Problem: How to reset the theme to its original state is unclear
-            from the current hue slider
-          </p>
-          <p className="text-14">
-            Solution: To fix this potential pain point, we decided that clicking
-            the selected theme again or making the hue bar sticky could be
-            mechanisms to revert the theme to its default color
-          </p>
+          <p className="text-14 underline font-bold"> Flow 1: Theme Hue Customization 🎨 </p>
+          <ul className="text-14 list-disc list-inside ml-24">
+            <li>
+              Problem: It is unclear how to reset the theme to its original state
+              from the current hue slider
+            </li>
+            <li>
+              Solution: To fix this potential pain point, we decided that clicking
+              the selected theme again or making the hue bar sticky could be
+              mechanisms to revert the theme to its default color
+            </li>
+          </ul>
 
-          <p className="text-14 underline">
-            ✍🏼 Flow 2: Title Font Customization
-          </p>
-          <p className="text-14">
-            Problem: The current font side pop up would likely not work with the
-            small left margins on a mobile screen
-          </p>
-          <p className="text-14">
-            Solution: We agreed that making the font a pop up that goes right on
-            top of the title font section and has a horizontal scroll could
-            solve this responsiveness issue
-          </p>
+          <p className="text-14 underline font-bold">Flow 2: Title Font Customization ✍🏼 </p>
+          <ul className="text-14 list-disc list-inside ml-24">
+            <li>
+              Problem: The current font side pop up would likely not work with the
+              small left margins on a mobile screen
+            </li>
+            <li>
+              Solution: Making the font a pop up that goes right on
+              top of the title font section with a horizontal scroll could
+              solve this responsiveness issue
+            </li>
+          </ul>
 
-          <p className="text-14 underline">🎶 Flow 3: Music</p>
-          <p className="text-14">
-            Problem: The pop up for choosing an event theme song blocks the
-            cover image, which makes the pulse animation difficult to preview
-            unless the user fully exits the pop up + It is unclear that the song
-            clip duration selector is a drop down
-          </p>
-          <p className="text-14">
-            Solution: To fix this potential pain point, we decided that clicking
-            the selected theme again or making the hue bar sticky could be
-            mechanisms to revert the theme to its default color
-          </p>
+          <p className="text-14 underline font-bold"> Flow 3: Music 🎶 </p>
+          <ul className="text-14 list-disc list-inside ml-24">
+            <li>
+              Problem: The pop up for choosing an event theme song blocks the
+              cover image, which makes the pulse animation difficult to preview
+              unless the user fully exits the pop up. It is also unclear that the song
+              clip duration selector is a drop down
+            </li>
+            <li>
+              Solution: We came to a consensus that making sure the pulsing starts when the toggle
+              is selected and making the pop up smaller would allow the user to demo and decide on
+              the pulsing rather than repetitively going between the pop up and interface, and
+              adding a small icon to the dropdown to make it more discoverable would solve the latter issue
+            </li>
+          </ul>
 
-          <p className="text-14 underline">🎉 Flow 4: Partiful Your Guests</p>
-          <p className="text-14">
-            Problem: While the font cover image and back “Partiful your guests”
-            image flip on click, that clickable interaction is hard to realize
-            for the user
-          </p>
-          <p className="text-14">
-            Solution: We successfully proposed that the cover could
-            automatically flip every 5 seconds, although that could become
-            overboard with the pulsing, or that there could be some icon to
-            indicate the cover is flippable
-          </p>
+          <p className="text-14 underline font-bold">Flow 4: Partiful Your Guests 🎉 </p>
+          <ul className="text-14 list-disc list-inside ml-24">
+            <li>
+              Problem: While the font cover image and back “Partiful your guests”
+              image flip on click, that clickable interaction is hard to realize
+              for the user
+            </li>
+            <li>
+              Solution: We successfully proposed that the cover could
+              automatically flip every 5 seconds, although that could become
+              overboard with the pulsing, or that there could be some icon to
+              indicate the cover is flippable
+            </li>
+          </ul>
 
           <p className="text-14">
             If time permits, we would love to take this feedback into account
@@ -548,6 +547,18 @@ export default function Handin() {
             with them on this project for the past few weeks!
           </p>
         </section>
+
+        <div className="row justify-center">
+          <div>
+            <Image
+              src={usspice}
+              className="rounded border border-black"
+              width={420}
+              alt="partiful logo"
+            />
+            <p className="text-12 mt-6 text-center"> Us as Ice Spice on a new, very Partiful cover image 🥳 </p>
+          </div>
+        </div>
       </main>
     </div>
   );
