@@ -425,6 +425,29 @@ export default function Handin() {
               necessary and would possibly lead to information overload
             </li>
           </ul>
+
+          <p className="text-14">
+            Here is the Loom walkthrough of our final product:
+          </p>
+
+          <div
+            style={{
+              position: "relative",
+              paddingBottom: "57.324840764331206%",
+              height: 0,
+            }}
+          >
+            <iframe
+              src="https://www.loom.com/embed/e6f07fea94fb4271812210cbd65b61d5?sid=4c88534b-ec89-4e99-8416-1767d06d69c7"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+              }}
+            ></iframe>
+          </div>
         </section>
 
         <section className="l-column gap-14">
@@ -477,7 +500,7 @@ export default function Handin() {
             <li>
               Solution: We came to a consensus that making sure the pulsing starts when the toggle
               is selected and making the pop up smaller would allow the user to demo and decide on
-              the pulsing rather than repetitively going between the pop up and interface, and 
+              the pulsing rather than repetitively going between the pop up and interface, and
               adding a small icon to the dropdown to make it more discoverable would solve the latter issue
             </li>
           </ul>
